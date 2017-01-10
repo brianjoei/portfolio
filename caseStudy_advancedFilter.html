@@ -61,8 +61,12 @@
 					<h1>Enhanced Selection Filter for Reports</h1>
 					<div class="spacer300"></div>
 					<h2>Overview</h2>
-					<p>Creating reports about the business is one of the most important features that QuickBooks offers to keep your business running smoothly. Creating accurate reports, such as Profit and Loss Reports, is a big reason to keep the books up-to-date and can determine the future strategy of the business. </p>
-					<p>I was recruited to be a part of this project to help guide this feature through a short three weeks of design. This is much shorter than the usual 2 months - 1 year to create a feature due to restrictions with the engineering timeline.</p>
+					<p>
+						Creating reports about the business is one of the most important features that QuickBooks offers to keep your business running smoothly. Reports, such as Profit and Loss Reports, is a big reason to keep the books up-to-date and can determine the future strategy of the business. 
+					</p>
+					<p>
+						I was recruited to be a part of this project to help guide this feature through a short three weeks of design. This is much shorter than the usual 2 months - 1 year to create a feature due to restrictions with the engineering timeline.
+					</p>
 					<div class="row">
 						<div class="col-md-8 img">
 							<img class="img-responsive img-rounded" src="img/pandlreport.png"/>
@@ -76,21 +80,31 @@
 					<!-- <div class="col-md-2"></div>
 					<div class="col-md-8 csContent bg-success"> -->
 						<h2>Scenario</h2>
-						<p>You’re the owner of a construction company and receive a large payment early from a company ‘Bayshore Water’ for a project that wolid start the following year, it wolid be important to exclude them from this year’s profit and loss report to create accurate reslits. </p>
+						<p>To help understand the problem let's pretend that you’re the owner of a construction company and receive a large payment early from a company ‘Bayshore Water’ for a project that would start the following year. It would be important to exclude them from this year’s profit and loss report to create accurate report. </p>
 						<p>The current way to do this is very time consuming for the owners or accountants to accomplish.</p>
 					<!-- </div> -->
 					<!-- <div class="col-md-2 "></div> -->
 					<div class="mockup">
-						<img src="img/Report_Baseline_1.png" class="img-responsive"/>
-						<p >Step 1: Here is a typical Profit and Loss Report in QuickBooks. To accomplish the task of excluding 'Bayshore Water' from this report, you wolid click the 'Customize Report' button in the top left.</p>
-						<img src="img/Report_Baseline_2.png" class="img-responsive"/>
-						<p>Step 2: In this screen, you can customize the Date Range, Report Basis. To change more of the input data you wolid then click the Filter </p>
-						<img src="img/Report_Baseline_3.png" class="img-responsive"/>
-						<p>Step 3: To omit the company 'Bayshore Water' from this report, we wolid select Name as the filter and select the dropdown menu that currently says 'All Names'</p>
-						<img src="img/Report_Baseline_4.png" class="img-responsive"/>
-						<p>Step 4: Select the option 'Mlitiple Names...'</p>
-						<img src="img/Report_Baseline_5.png" class="img-responsive"/>
-						<p>Step 5: Individually select ALL other names beside 'Bayshore Water'. With lists ranging up to 14,500 in QuickBooks, this seemingly simple task colid take hours to accomplish. </p>
+					<img src="img/Report_Baseline_1.png" class="img-responsive"/>
+					<p>
+						Step 1: Here is a typical Profit and Loss Report in QuickBooks. To accomplish the task of excluding 'Bayshore Water' from this report, you wolid click the 'Customize Report' button in the top left.
+					</p>
+					<img src="img/Report_Baseline_2.png" class="img-responsive"/>
+					<p>
+						Step 2: In this screen, you can customize the Date Range, Report Basis. To change more of the input data you wolid then click the Filter 
+					</p>
+					<img src="img/Report_Baseline_3.png" class="img-responsive"/>
+					<p>
+						Step 3: To omit the company 'Bayshore Water' from this report, we wolid select Name as the filter and select the dropdown menu that currently says 'All Names'
+					</p>
+					<img src="img/Report_Baseline_4.png" class="img-responsive"/>
+					<p>
+						Step 4: Select the option 'Mlitiple Names...'
+					</p>
+					<img src="img/Report_Baseline_5.png" class="img-responsive"/>
+					<p>
+						Step 5: Individually select ALL other names beside 'Bayshore Water'. With lists ranging up to 14,500 in QuickBooks, this seemingly simple task colid take hours to accomplish. 
+					</p>
 
 					</div>
 
@@ -278,12 +292,52 @@
 					<br/>
 					Dane F. small business owner
 				</blockquote>
-				<h2>Before and after</h2>
 				
-					<img class="img-responsive" src="img/Before_After.png" />
-				
-				<h2>Conclusion</h2>
-				<p>This project</p>
+				<h2>Engineering feedback on design</h2>
+				<p>
+					Now that we proved a successful design we presented our design and findings to engineering. Although this design did not garner concerns when presented to the engineering team prior to usability testing, new problems arose during the building of the dialog box. After reviewing the design, prototype and results from the usability testing, they concluded that some of the enhancements would not be possible to include in this update with the given timeframe, and would need to be accomplished in a later version. We had to choose what features were the most important to be included. 
+				</p>
+			
+				<img src="img/ReportFilterSelectionNotes.png" class="img-responsive" />
+				<img src="img/ExistingDesign.png" class="img-responsive" />			
+
+				<h2>Final Design</h2> 
+				<p> 
+					Although the design that was tested in usability was determined to be not immediately feasible, there was a lot that we learned in usability testing alongside what we now know what is possible from engineering.  
+				</p>
+				<p>
+					Conclusions
+				</p>
+				<ul>
+					<li>If the top check box could not be incorporated, we need a clear way to ‘Select All’ and ‘Clear All’. This may be achieve with clear buttons that explicitly say "Select All' and 'Clear All'. </li>
+					<li>The ability to search is still very important. We know from the Pattern Analysis that is an expectation and it was used frequently in usability tests.</li>
+					<li>Removal of the unused ‘Automatic’ menu could create a larger selection field and would simplify this screen. </li>
+				</ul>
+				<div class="img">
+					<img src="img/ReportFilterSelectionFinal.png" class="img-responsive">
+				</div>
+				<p>
+					Although this designed lacked some of the aspects of the design that succeeded in usability, it was still based off the learnings and I felt confident that it could still accomplish the initial goal from this project. While at this stage of development, we were not able to validate the design decisions, this design would be further tested in alpha and beta builds in QuickBooks. The feedback received during the alpha and beta builds did not require any updates to the design. 
+				</p>
+
+				<h2>Reception</h2>
+	
+				<blockquote>
+					I'm not sure about you, but I know there are times I wish I could select an entire set of items in a filter box for a QuickBooks report. Until now, we have had to pick them one by one...
+					<br/><br/>
+					This has been one of the most needed filter requirements that many of us have had, I for one am very happy that we finally have this option.
+					<br/><br/>
+					-William Murphy, www.intuitiveaccountant.com
+					<img src="http://www.intuitiveaccountant.com/api/design-c706f3b73451b1315ecd553979ee111a/insightful%20tm%20600%201.JPG">
+				</blockquote>
+
+				<blockquote>
+					Now, in QuickBooks 2017, when selecting multiple items in a filter for a report, the list is displayed clearly, and a Select All or Clear All option is provided.
+					<br/><br/>
+					-Laura Madeira, www.firmofthefuture.com
+					<br/>
+					<img src="https://www.firmofthefuture.com/intuit/includes/themes/Intuit/content/images/logo-fotf.svg" width="300px">
+				</blockquote>
 				</div>
 				<div class="col-lg-2 col-md-1"></div>
 			</div>

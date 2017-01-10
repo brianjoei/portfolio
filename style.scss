@@ -1,13 +1,20 @@
 $backgroundColor: white;
 $mainfont: 'Open Sans', sans-serif;
 $titleFont: 'Roboto Slab', serif;
+$backgroundColorDark: #444954;
 
-$color: #ddd;
+$color: #bbb;
 $spacer: 40px;
 $spacer50: $spacer/2;
 $spacer25: $spacer/4;
 $spacer300: $spacer*3;
+$spacer200: $spacer*2;
 $navcolor: #777;
+
+$whitetext: #F1F1F1;
+$whiteptext: #C2C2C2;
+
+$blacktext: #5B606C;
 
 body {
   // max-width: 1200px
@@ -15,6 +22,7 @@ body {
   // margin-right: auto
   font-family: $mainfont;
   // padding-top: 15%
+  color: $blacktext;
 }  
 
 h1, h2, h3, h4, h5, h6, p {
@@ -25,7 +33,13 @@ h1, h2, h3, h4, h5, h6, p {
   padding-left: 0;
 }
 
-
+hr{
+  border-width: 1px;
+  border-color: #C6CAD2;
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 p{
   font-size: 1.15em;
@@ -42,6 +56,13 @@ video{
   border-radius: 4px;
 }
 
+
+
+.centerImage{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .onloadnav {
   span {
     color: $navcolor;  
@@ -49,10 +70,119 @@ video{
   padding-right: 15px;
 }
 
-.casestudy h2, .category-title, h3{
-  font-family: $titleFont;
+.reportFilterRow{
+  background-image: url('img/Intuit_heroimage.png');
+  background-color: #564E38;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 430px;
 }
 
+.fileOptionsRow{
+  background-image: url('img/CloudOn_heroimage_cover.png');
+  background-color: #5f5f60;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 430px;
+}
+
+.aboutme{
+  background-image: url('img/about_me.png');
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 430px;
+}
+
+.reco{
+  // font-style: italic;
+  font-size: 1.2em;
+  font-weight: 300;
+  background-image: url('img/quotes.png');
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+
+.casestudylight{
+  margin-top: 60px;
+  padding-bottom: 60px;
+  hr{
+    border-color: #7C7C7C;
+    width: 100%;
+  }
+  h2, p, h3, h4, ul{
+    color: $whitetext;
+  }
+  h3{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    color: $whitetext;
+    font-weight: 200;
+    font-size: 1.2em;
+  }
+  h4{
+    font-size: 1.6em;
+    margin-top: $spacer50;
+    font-weight: 400;
+  }
+  p{
+    font-weight: 200;
+    color: $whiteptext;
+  }
+  a{
+    color: $whitetext;
+  }
+  li{
+    font-size: 1.4em;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: $whiteptext;
+  }
+  ul{
+    margin-top: $spacer50;
+    list-style: none;
+    padding-left: 0px;
+  }
+  .circle{
+    border-radius: 50%;
+    width: 18px;
+    height: 18px; 
+    margin-right: 8px;
+    margin-top: 5px;
+    background-color: $whitetext;
+  }
+  .dark{
+    // background-color: #C2C2C2;
+    opacity: 0.3;
+  }
+  .skillcolumn{
+    padding-right: $spacer;
+  }
+  .author{
+    color: $whitetext;
+    font-weight: 400; 
+    font-style: normal;
+  }
+}
+
+
+.casestudy h2, .category-title, h3, h2{
+  font-family: $titleFont;
+
+}
+
+.category-title{
+  text-align: center; 
+  margin-top: 80px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
 
 .caseStudyDetail{
   h1, h2, h3{
@@ -63,7 +193,8 @@ video{
   p, li{
     line-height: 2em;
     padding-bottom:$spacer50;
-    font-size: 1.15em 
+    font-size: 1.15em; 
+
   }
   ul{
     padding-left: 20px;
@@ -101,6 +232,72 @@ video{
   }
 }
 
+
+.boxdog{
+  background-image: url('img/background_boxdog.png');
+  background-color: #FFF;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
+}
+
+.desktop{
+  background-image: url('img/pc_dell.png');
+  background-size: 122%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1000px;
+  margin-top: -40px;
+  video{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 165px;
+  }
+  .subtitle{
+      margin-top: 290px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+  }
+}
+
+.portcontent{
+  margin-top: $spacer;
+  margin-bottom: $spacer200;
+ 
+}
+
+.iphone{
+  background-image: url('img/iphone_6.png');
+  background-size: 25%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  video{
+    width: 23%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 125px;
+  }
+  .subtitle{
+      margin-top: 90px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+  }
+}
+
+.subtitle{
+  // width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 .ipad{
   background-image: url('img/ipad-black.svg');
   background-size: 81% 81%;
@@ -114,9 +311,22 @@ video{
     margin-left: auto;
     margin-right: auto;
     margin-top: 85px;
-
+  }
+  .subtitle{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   }
 }
+
+.protoflow{
+  padding-top: 88px;
+  width: 50%;
+}
+
+
+
 @media only screen and (min-width: 1000px) and (max-width: 1200px) {
   .ipad{
     // background-color: red;
@@ -125,6 +335,20 @@ video{
       margin-top: 85px;
     }
   }
+  .iphone{
+    video{
+    margin-top: 160px;
+   } 
+  }
+
+.desktop{
+    video{
+      margin-top: 220px;
+    }
+}
+
+
+
 }
 
 @media only screen and (min-width: 750px) and (max-width: 999px) {
@@ -134,22 +358,60 @@ video{
       margin-top: 115px;
     }
   }
+  .iphone{
+    video{
+      margin-top: 105px;
+    }
+    height: 500px;
+  }
+  .desktop{
+    video{
+      margin-top: 285px;
+    }
+    .subtitle{
+      margin-top: 190px;
+    }
+  }
+
+  .protoflow{
+    width: 65%;
+    padding-top: 125px;
+  }
 }
 
 @media only screen and (min-width: 1px) and (max-width: 750px) {
-  .ipad{
+  .ipad, .iphone, .desktop{
   background-image: none;
   height: 100%;
     video{
       width: 100%;
-
+    }
+    .subtitle{
+      margin-top: 20px;
     }
   }
+
+  .protoflow{
+    width: 100%;
+    padding-top: 125px;
+    margin-top: 40px;
+  }
+
 }
 
 
 .projectDark{ 
-  background-color: #eee;
+  background-color: $backgroundColorDark;
+}
+
+.aboutme{
+  background-image: url('img/about_me.png');
+  // background-size: contain;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+
 }
 
 .light{
@@ -200,11 +462,11 @@ video{
 //   height: 150%;
 // }
 
-.eveninfo{
-  float: right;
-}
+// .eveninfo{
+//   float: right;
+// }
 
-.evenimg{
-  float: left;
-}
+// .evenimg{
+//   float: left;
+// }
 			

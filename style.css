@@ -1,5 +1,6 @@
 body {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  color: #5B606C; }
 
 h1, h2, h3, h4, h5, h6, p {
   margin-top: 0;
@@ -7,6 +8,13 @@ h1, h2, h3, h4, h5, h6, p {
   margin-left: 0;
   margin-right: 0;
   padding-left: 0; }
+
+hr {
+  border-width: 1px;
+  border-color: #C6CAD2;
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto; }
 
 p {
   font-size: 1.15em; }
@@ -20,13 +28,103 @@ video {
   border-color: #444;
   border-radius: 4px; }
 
+.centerImage {
+  margin-left: auto;
+  margin-right: auto; }
+
 .onloadnav {
   padding-right: 15px; }
   .onloadnav span {
     color: #777; }
 
-.casestudy h2, .category-title, h3 {
+.reportFilterRow {
+  background-image: url("img/Intuit_heroimage.png");
+  background-color: #564E38;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 430px; }
+
+.fileOptionsRow {
+  background-image: url("img/CloudOn_heroimage_cover.png");
+  background-color: #5f5f60;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 430px; }
+
+.aboutme {
+  background-image: url("img/about_me.png");
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 430px; }
+
+.reco {
+  font-size: 1.2em;
+  font-weight: 300;
+  background-image: url("img/quotes.png");
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px; }
+
+.casestudylight {
+  margin-top: 60px;
+  padding-bottom: 60px; }
+  .casestudylight hr {
+    border-color: #7C7C7C;
+    width: 100%; }
+  .casestudylight h2, .casestudylight p, .casestudylight h3, .casestudylight h4, .casestudylight ul {
+    color: #F1F1F1; }
+  .casestudylight h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    color: #F1F1F1;
+    font-weight: 200;
+    font-size: 1.2em; }
+  .casestudylight h4 {
+    font-size: 1.6em;
+    margin-top: 20px;
+    font-weight: 400; }
+  .casestudylight p {
+    font-weight: 200;
+    color: #C2C2C2; }
+  .casestudylight a {
+    color: #F1F1F1; }
+  .casestudylight li {
+    font-size: 1.4em;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #C2C2C2; }
+  .casestudylight ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0px; }
+  .casestudylight .circle {
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    margin-top: 5px;
+    background-color: #F1F1F1; }
+  .casestudylight .dark {
+    opacity: 0.3; }
+  .casestudylight .skillcolumn {
+    padding-right: 40px; }
+  .casestudylight .author {
+    color: #F1F1F1;
+    font-weight: 400;
+    font-style: normal; }
+
+.casestudy h2, .category-title, h3, h2 {
   font-family: "Roboto Slab", serif; }
+
+.category-title {
+  text-align: center;
+  margin-top: 80px; }
+
+h2 {
+  margin-bottom: 20px; }
 
 .caseStudyDetail h1, .caseStudyDetail h2, .caseStudyDetail h3 {
   font-family: "Roboto Slab", serif;
@@ -41,7 +139,7 @@ video {
 .caseStudyDetail .spacer300 {
   height: 120px; }
 .caseStudyDetail .img img {
-  box-shadow: 0px 0px 14px #ddd;
+  box-shadow: 0px 0px 14px #bbb;
   margin-left: auto;
   margin-right: auto; }
 .caseStudyDetail .img {
@@ -60,6 +158,60 @@ video {
   padding-left: 5%;
   padding-right: 5%; }
 
+.boxdog {
+  background-image: url("img/background_boxdog.png");
+  background-color: #FFF;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px; }
+
+.desktop {
+  background-image: url("img/pc_dell.png");
+  background-size: 122%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1000px;
+  margin-top: -40px; }
+  .desktop video {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 165px; }
+  .desktop .subtitle {
+    margin-top: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; }
+
+.portcontent {
+  margin-top: 40px;
+  margin-bottom: 80px; }
+
+.iphone {
+  background-image: url("img/iphone_6.png");
+  background-size: 25%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px; }
+  .iphone video {
+    width: 23%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 125px; }
+  .iphone .subtitle {
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; }
+
+.subtitle {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
 .ipad {
   background-image: url("img/ipad-black.svg");
   background-size: 81% 81%;
@@ -73,26 +225,69 @@ video {
     margin-left: auto;
     margin-right: auto;
     margin-top: 85px; }
+  .ipad .subtitle {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; }
+
+.protoflow {
+  padding-top: 88px;
+  width: 50%; }
 
 @media only screen and (min-width: 1000px) and (max-width: 1200px) {
   .ipad video {
     width: 61%;
-    margin-top: 85px; } }
+    margin-top: 85px; }
+
+  .iphone video {
+    margin-top: 160px; }
+
+  .desktop video {
+    margin-top: 220px; } }
 @media only screen and (min-width: 750px) and (max-width: 999px) {
   .ipad video {
     width: 68%;
-    margin-top: 115px; } }
+    margin-top: 115px; }
+
+  .iphone {
+    height: 500px; }
+    .iphone video {
+      margin-top: 105px; }
+
+  .desktop video {
+    margin-top: 285px; }
+  .desktop .subtitle {
+    margin-top: 190px; }
+
+  .protoflow {
+    width: 65%;
+    padding-top: 125px; } }
 @media only screen and (min-width: 1px) and (max-width: 750px) {
-  .ipad {
+  .ipad, .iphone, .desktop {
     background-image: none;
     height: 100%; }
-    .ipad video {
-      width: 100%; } }
+    .ipad video, .iphone video, .desktop video {
+      width: 100%; }
+    .ipad .subtitle, .iphone .subtitle, .desktop .subtitle {
+      margin-top: 20px; }
+
+  .protoflow {
+    width: 100%;
+    padding-top: 125px;
+    margin-top: 40px; } }
 .projectDark {
-  background-color: #eee; }
+  background-color: #444954; }
+
+.aboutme {
+  background-image: url("img/about_me.png");
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%; }
 
 .light {
-  color: #ddd; }
+  color: #bbb; }
 
 .spacer {
   height: 40px; }
@@ -112,17 +307,11 @@ video {
   margin-top: 50px;
   font-family: "Roboto Slab", serif; }
   .heroSkin span {
-    color: #ddd;
+    color: #bbb;
     font-weight: lighter; }
 
 .designer {
   height: 400px;
   margin-top: 40px; }
-
-.eveninfo {
-  float: right; }
-
-.evenimg {
-  float: left; }
 
 /*# sourceMappingURL=style.css.map */
